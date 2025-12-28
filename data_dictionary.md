@@ -15,16 +15,16 @@ Este documento describe las variables incluidas en el dataset de reclamaciones d
 | umbrella_limit | DECIMAL(10,2) | Limite de cobertura adicional RC catastrofica | Es una cobertura extra que entra cuando se agotan los límites básicos. |
 | insured_zip | VARCHAR | Código postal del asegurado | |
 | insured_sex | VARCHAR | Genero del asegurado | Masculino / Femenino |
-| insured_edication_level | Nivel de estudios del asegurado | |
-| insured_ocupation | Ocupación del asegurado | |
-| insured_hobbies| Pasatiempos del asegurado | |
-| insured_relationship | Estado civil del asegurado | | 
-| capital_gains | Ganancias financieras anuales declaradas por el asegurado | |
-| capital_loss | Pérdidas financieras anuales declaradas por el asegurado | |
+| insured_edication_level | VARCHAR | Nivel de estudios del asegurado | |
+| insured_ocupation | VARCHAR | Ocupación del asegurado | |
+| insured_hobbies| VARCHAR | Pasatiempos del asegurado | |
+| insured_relationship | VARCHAR | Estado civil del asegurado | | 
+| capital_gains | DECIMAL(10.2) | Ganancias financieras anuales declaradas por el asegurado | |
+| capital_loss | DECIMAL(10.2) | Pérdidas financieras anuales declaradas por el asegurado | |
 | icident_date | DATE | Fecha de ocurrencia del siniestro | Fecha de ocurrencia no es igual a fecha de reporte a la aseguradora |
-| incident_type | Tipo de siniestro | Colisión, Robo, Estacionado, etc | 
-| collision_type | Tipo de colisión | En caso de no aplicar se indica con el simbolo "?" | 
-| incident_severity | Gravedad del siniestro | |
-| authorities_contacted | Autoridad reportada | |
-| incident_state | Estado donde ocurrio el siniestro | |
-| incident_city | Ciudad donde ocurrio el siniestro | |
+| incident_type | VARCHAR | Tipo de siniestro | Colisión, Robo, Estacionado, etc | 
+| collision_type | VARCHAR | Tipo de colisión | En caso de no aplicar se indica con el simbolo "?" | 
+| incident_severity | VARCHAR | Gravedad del siniestro | |
+| authorities_contacted | VARCHAR | Autoridad reportada | |
+| incident_state | VARCHAR | Estado donde ocurrio el siniestro | |
+| incident_city | VARCHAR | Ciudad donde ocurrio el siniestro | |
